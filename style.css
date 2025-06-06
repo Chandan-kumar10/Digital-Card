@@ -1,0 +1,45 @@
+//STYLE.CSS
+
+body {
+  background-color: #111;
+  font-family: Arial, sans-serif;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background-color: #222;
+  text-align: center;
+  padding: 30px;
+  border-radius: 15px;
+  width: 300px;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.3);
+}
+
+.profile-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid cyan;
+}
+
+.title {
+  font-size: 18px;
+  color: cyan;
+}
+
+.links a {
+  color: white;
+  text-decoration: none;
+  margin: 10px;
+  display: inline-block;
+  transition: color 0.3s;
+}
+
+.links a:hover {
+  color: cyan;
+}
