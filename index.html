@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Digital Visiting Card</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="card">
+    <img src="image.png" alt="Profile" class="profile-img" />
+    <h1>Chandan  Kumar</h1>
+    <p class="title">B.Tech CSE Student | Web Developer</p>
+    <p>Galgotias University</p>
+    <div class="links">
+      <a href="mailto: ck598364@gmail.com">Email</a>
+      <a href="https://github.com/Chandan-kumar10">GitHub</a>
+      <a href="https://www.linkedin.com/in/chandan-kumar-6156812b5/">LinkedIn</a>
+    </div>
+  </div>
+</body>
+</html>
+
+
+//STYLE.CSS
+
+body {
+  background-color: #111;
+  font-family: Arial, sans-serif;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background-color: #222;
+  text-align: center;
+  padding: 30px;
+  border-radius: 15px;
+  width: 300px;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.3);
+}
+
+.profile-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid cyan;
+}
+
+.title {
+  font-size: 18px;
+  color: cyan;
+}
+
+.links a {
+  color: white;
+  text-decoration: none;
+  margin: 10px;
+  display: inline-block;
+  transition: color 0.3s;
+}
+
+.links a:hover {
+  color: cyan;
+}
